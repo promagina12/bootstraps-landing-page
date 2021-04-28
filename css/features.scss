@@ -1,5 +1,5 @@
 .features {
-    background: #FAFAFA;
+    background: #fafafa;
     .container {
         text-align: center;
     }
@@ -9,6 +9,10 @@
         font-weight: 200;
         line-height: 42px;
         letter-spacing: 0;
+
+        @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+            font-size: 25px;
+        }
     }
 
     .pb-c {
@@ -19,19 +23,38 @@
         width: 771px;
         margin: 0 auto;
         padding-bottom: 60px;
+
+        @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+            font-size: 10px;
+            line-height: 25px;
+            width: auto;
+            padding-bottom: 80px;
+        }
     }
 
     .row {
-
+        @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+            padding-top: 0 !important;
+        }
         .feature {
             width: 371px;
             margin: 0 auto;
-            border: 0.5px solid #CECECE;
+            border: 0.5px solid #cecece;
             height: 374px;
+
+            @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+                width: auto;
+                height: 310px;
+                margin: 10px auto;
+            }
         }
 
         .feature-icon {
             margin-top: 50px;
+
+            @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+                margin-top: 20px;
+            }
         }
 
         h5 {
@@ -40,6 +63,16 @@
             line-height: 22px;
             letter-spacing: 0.25px;
             padding: 15px;
+
+            @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+                font-size: 12px;
+                font-weight: 300;
+                line-height: 22px;
+                letter-spacing: 0.25px;
+                padding: 15px;
+                width: auto;
+                display: contents;
+            }
         }
 
         p {
@@ -50,6 +83,16 @@
             width: 251px;
             margin: 0 auto;
             padding: 20px;
+
+            @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+                font-size: 11px;
+                font-weight: 200;
+                line-height: 25px;
+                letter-spacing: 0.1px;
+                width: auto;
+                margin: 0 auto;
+                padding: 10px 0 10px 0px;
+            }
         }
     }
 }

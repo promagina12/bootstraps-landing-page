@@ -1,5 +1,5 @@
 .features {
-  background: #FAFAFA;
+  background: #fafafa;
 }
 
 .features .container {
@@ -13,6 +13,12 @@
   letter-spacing: 0;
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  .features .pb-2 {
+    font-size: 25px;
+  }
+}
+
 .features .pb-c {
   font-size: 16px;
   font-weight: 300;
@@ -23,15 +29,44 @@
   padding-bottom: 60px;
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  .features .pb-c {
+    font-size: 10px;
+    line-height: 25px;
+    width: auto;
+    padding-bottom: 80px;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  .features .row {
+    padding-top: 0 !important;
+  }
+}
+
 .features .row .feature {
   width: 371px;
   margin: 0 auto;
-  border: 0.5px solid #CECECE;
+  border: 0.5px solid #cecece;
   height: 374px;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  .features .row .feature {
+    width: auto;
+    height: 310px;
+    margin: 10px auto;
+  }
 }
 
 .features .row .feature-icon {
   margin-top: 50px;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  .features .row .feature-icon {
+    margin-top: 20px;
+  }
 }
 
 .features .row h5 {
@@ -42,6 +77,18 @@
   padding: 15px;
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  .features .row h5 {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    padding: 15px;
+    width: auto;
+    display: contents;
+  }
+}
+
 .features .row p {
   font-size: 16px;
   font-weight: 200;
@@ -50,5 +97,17 @@
   width: 251px;
   margin: 0 auto;
   padding: 20px;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  .features .row p {
+    font-size: 11px;
+    font-weight: 200;
+    line-height: 25px;
+    letter-spacing: 0.1px;
+    width: auto;
+    margin: 0 auto;
+    padding: 10px 0 10px 0px;
+  }
 }
 /*# sourceMappingURL=features.css.map */

@@ -13,6 +13,14 @@ body {
     font-weight: bold;
     letter-spacing: 3px;
     color: #fff;
+
+    @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+        padding: 20px 30px 18px 30px;
+        border-radius: 36px;
+        font-size: 10px;
+        line-height: 17px;
+        letter-spacing: 2px;
+    }
 }
 
 .background-1 {
@@ -22,12 +30,21 @@ body {
     background-size: 100% 100%;
     min-height: 900px;
 
+    @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+        background-size: 100% 100%;
+        min-height: 500px;
+    }
+
     .navbar-brand {
         color: #d9f0ff;
         font-size: 28px;
         font-weight: 600;
         line-height: 34px;
         letter-spacing: 0;
+
+        @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+            font-size: 25px;
+        }
     }
 
     .navbar-nav {
@@ -46,6 +63,10 @@ body {
         padding: 180px;
         text-align: center;
 
+        @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+            padding: 50px;
+        }
+
         h1 {
             font-size: 100px;
             line-height: 120px;
@@ -53,6 +74,12 @@ body {
             font-weight: 200;
             text-align: center;
             color: #fff;
+
+            @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+                font-size: 40px;
+                line-height: 50px;
+                padding-top: 50px;
+            }
         }
 
         .lead {
@@ -65,10 +92,24 @@ body {
             padding-left: 60px;
             padding-right: 60px;
             width: 624px;
+
+            @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+                font-size: 10px;
+                line-height: 20px;
+                padding-left: 0;
+                padding-right: 0;
+                padding: 15px 0 0 0;
+                width: auto;
+            }
         }
 
         .content {
             margin-top: 50px;
+
+            @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+                margin-top: 0;
+                padding-top: 35px;
+            }
         }
     }
 }
